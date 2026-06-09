@@ -87,8 +87,8 @@ export default function Navbar() {
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
         scrolled
-          ? "bg-canvas/90 backdrop-blur-md border-b border-border/60 shadow-sm"
-          : "bg-canvas"
+          ? "bg-white/[0.97] backdrop-blur-xl border-b border-gray-200 shadow-[0_2px_16px_rgba(0,0,0,0.08)]"
+          : "bg-canvas border-b border-transparent"
       )}
     >
       <nav className="max-content container-pad flex h-16 items-center justify-between gap-4">

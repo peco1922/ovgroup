@@ -4,6 +4,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import TrustBar from "@/components/sections/TrustBar";
 import ServicesPreview from "@/components/sections/ServicesPreview";
 import ProjectsGrid from "@/components/sections/ProjectsGrid";
+import ReviewsSection from "@/components/sections/ReviewsSection";
 import ValueProposition from "@/components/sections/ValueProposition";
 import CTABanner from "@/components/sections/CTABanner";
 
@@ -28,6 +29,7 @@ export default function HomePage() {
       <TrustBar />
       <ServicesPreview />
       <ProjectsGrid />
+      <ReviewsSection />
       <ValueProposition />
       <CTABanner />
     </>

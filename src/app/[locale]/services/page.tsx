@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, ShoppingBag, Shirt, Palette, MapPin } from "lucide-react";
 import servicesData from "@/../data/services.json";
 import type { Locale } from "@/i18n/routing";
+
+const SERVICE_IMAGES: Record<string, string> = {
+  merchandising: "/images/projects-hero.jpg",
+  textile: "/images/production.jpg",
+  branding: "/images/office.jpg",
+  presence: "/images/about-team.jpg",
+};
 
 const ICON_MAP: Record<string, React.ComponentType<{ className?: string }>> = {
   ShoppingBag,
@@ -78,10 +86,14 @@ export default async function ServicesPage({ params }: Props) {
                 </div>
 
                 <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-surface">
-                  {/* [AI_IMAGE_SUGGESTION: Professional product photography showing {service.title} — premium merchandising and branding work] */}
-                  <div className="absolute inset-0 flex items-center justify-center text-ink-subtle/30 text-xs font-mono">
-                    {service.id}
-                  </div>
+                  <Image
+                    src={SERVICE_IMAGES[service.id] ?? "/images/projects-hero.jpg"}
+                    alt={service.title[locale as Locale] ?? service.title.pt}
+                    fill
+                    className="object-cover object-center"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-dark/20 to-transparent" />
                 </div>
               </div>
             );

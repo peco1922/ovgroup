@@ -1,0 +1,46 @@
+{
+  "overall_rating": 4.9,
+  "total_count": 19,
+  "reviews": [
+    {
+      "id": "r1",
+      "author": "Ana Ferreira",
+      "avatar_color": "#2563EB",
+      "rating": 5,
+      "date": "2025-11-08",
+      "text": "Excelente parceiro para merchandising corporativo. A qualidade dos produtos e o atendimento personalizado superaram as nossas expectativas. Equipa muito profissional e sempre disponível. Recomendo vivamente."
+    },
+    {
+      "id": "r2",
+      "author": "Ricardo Sousa",
+      "avatar_color": "#16A34A",
+      "rating": 5,
+      "date": "2025-09-22",
+      "text": "Trabalhámos com a OpenVision para branding de eventos corporativos. O resultado final foi impecável — atenção ao detalhe, prazos cumpridos e comunicação constante durante todo o processo."
+    },
+    {
+      "id": "r3",
+      "author": "Margarida Costa",
+      "avatar_color": "#9333EA",
+      "rating": 5,
+      "date": "2025-07-14",
+      "text": "Encomendámos têxteis personalizados para toda a equipa. A qualidade é muito boa, os preços competitivos e a entrega foi feita no prazo acordado. Voltaremos a trabalhar com eles com certeza."
+    },
+    {
+      "id": "r4",
+      "author": "João Matos",
+      "avatar_color": "#D97706",
+      "rating": 5,
+      "date": "2025-05-30",
+      "text": "Empresa de confiança. Já são vários anos de parceria e a qualidade mantém-se sempre. O serviço pós-venda é excelente e a equipa comercial conhece bem o produto que vende."
+    },
+    {
+      "id": "r5",
+      "author": "Sofia Barbosa",
+      "avatar_color": "#0891B2",
+      "rating": 5,
+      "date": "2025-03-11",
+      "text": "Optámos pela OpenVision para uma campanha de presença de marca em vários eventos. O resultado superou as expectativas — peças com qualidade premium e identidade visual muito bem trabalhada."
+    }
+  ]
+}

@@ -3,29 +3,72 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
-import { motion } from "motion/react";
-import { ArrowRight, Play } from "lucide-react";
+import { motion, AnimatePresence } from "motion/react";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
+import { useState, useEffect, useCallback } from "react";
+
+const BANNERS = [
+  { src: "/images/hero/banner-1.png", alt: "OpenVision Group — Merchandising" },
+  { src: "/images/hero/banner-2.png", alt: "OpenVision Group — Têxtil" },
+  { src: "/images/hero/banner-3.png", alt: "OpenVision Group — Branding" },
+];
 
 export default function HeroSection() {
   const t = useTranslations("hero");
+  const [current, setCurrent] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  const next = useCallback(() => {
+    setCurrent((c) => (c + 1) % BANNERS.length);
+  }, []);
+
+  const prev = useCallback(() => {
+    setCurrent((c) => (c - 1 + BANNERS.length) % BANNERS.length);
+  }, []);
+
+  useEffect(() => {
+    if (paused) return;
+    const id = setInterval(next, 5000);
+    return () => clearInterval(id);
+  }, [paused, next]);
 
   return (
-    <section className="relative bg-dark min-h-[88dvh] flex items-center overflow-hidden">
-      {/* Noise texture overlay */}
-      <div
-        className="absolute inset-0 opacity-[0.03] pointer-events-none"
-        style={{
-          backgroundImage:
-            "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E\")",
-        }}
-      />
+    <section
+      className="relative bg-dark min-h-[88dvh] flex items-end overflow-hidden"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+    >
+      {/* Slideshow images */}
+      <AnimatePresence mode="sync">
+        <motion.div
+          key={current}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1.2, ease: "easeInOut" }}
+          className="absolute inset-0"
+        >
+          <Image
+            src={BANNERS[current].src}
+            alt={BANNERS[current].alt}
+            fill
+            priority={current === 0}
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+        </motion.div>
+      </AnimatePresence>
+
+      {/* Gradient overlay — dark at bottom for text, subtle at top */}
+      <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/50 to-dark/20 pointer-events-none" />
 
       {/* Ambient glow */}
-      <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-brand-pink/10 blur-[120px] pointer-events-none" />
+      <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-brand-pink/15 blur-[120px] pointer-events-none" />
 
-      <div className="relative z-10 max-content container-pad w-full py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-        {/* Text block */}
-        <div className="space-y-8">
+      {/* Content */}
+      <div className="relative z-10 max-content container-pad w-full pb-20 pt-32">
+        <div className="max-w-2xl space-y-8">
           <motion.div
             initial={{ opacity: 0, y: 28 }}
             animate={{ opacity: 1, y: 0 }}
@@ -44,7 +87,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-            className="text-lg text-ink-on-dark/70 leading-relaxed max-w-lg"
+            className="text-lg text-ink-on-dark/75 leading-relaxed"
           >
             {t("subheadline")}
           </motion.p>
@@ -55,43 +98,57 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.28, ease: [0.16, 1, 0.3, 1] }}
             className="flex flex-wrap gap-4"
           >
-            <Button
-              size="lg"
-              render={<Link href="/contact" />}
-            >
+            <Button size="lg" render={<Link href="/contact" />}>
               {t("cta_primary")}
               <ArrowRight className="h-4 w-4" />
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-white/20 text-ink-on-dark bg-transparent hover:bg-white/10 hover:text-ink-on-dark"
+              className="border-white/30 text-ink-on-dark bg-transparent hover:bg-white/10 hover:text-ink-on-dark hover:border-white/50"
               render={<Link href="/projects" />}
             >
-              <Play className="h-4 w-4" />
               {t("cta_secondary")}
             </Button>
           </motion.div>
         </div>
 
-        {/* Image placeholder */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="relative aspect-[4/3] lg:aspect-square rounded-2xl overflow-hidden bg-dark-2"
-        >
-          {/* [AI_IMAGE_SUGGESTION: Premium branded merchandise flat-lay on dark stone surface — custom embroidered polo shirts, branded notebooks, corporate gifts and promotional textiles arranged elegantly with soft directional studio lighting, brand pink (#CC3366) accent highlights, professional commercial photography, overhead angle] */}
-          <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-ink-on-dark/20">
-            <div className="w-12 h-12 rounded-full border-2 border-dashed border-current flex items-center justify-center text-2xl">
-              🖼
-            </div>
-            <span className="text-xs font-mono text-center px-6 leading-relaxed">
-              Replace with professional product photography
-            </span>
+        {/* Slideshow controls */}
+        <div className="flex items-center gap-4 mt-12">
+          {/* Dot indicators */}
+          <div className="flex items-center gap-2">
+            {BANNERS.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrent(i)}
+                aria-label={`Slide ${i + 1}`}
+                className={`transition-all duration-300 rounded-full ${
+                  i === current
+                    ? "w-8 h-2 bg-brand-pink"
+                    : "w-2 h-2 bg-white/40 hover:bg-white/60"
+                }`}
+              />
+            ))}
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent" />
-        </motion.div>
+
+          {/* Prev/Next */}
+          <div className="flex items-center gap-1 ml-2">
+            <button
+              onClick={prev}
+              aria-label="Slide anterior"
+              className="p-1.5 rounded-full text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </button>
+            <button
+              onClick={next}
+              aria-label="Próximo slide"
+              className="p-1.5 rounded-full text-white/60 hover:text-white hover:bg-white/10 transition-colors"
+            >
+              <ChevronRight className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );

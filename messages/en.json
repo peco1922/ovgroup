@@ -97,11 +97,18 @@
     "hero_title": "Brands",
     "intro": "Some of the clients who have trusted us for years."
   },
+  "reviews": {
+    "title": "What our clients say",
+    "count_label": "reviews on Google",
+    "cta_label": "See all reviews"
+  },
   "csr": {
     "hero_title": "Social Responsibility",
     "hero_subtitle": "We believe business growth must be sustainable and ethically responsible.",
     "certifications_title": "Certifications",
-    "causes_title": "Causes We Support"
+    "causes_title": "Causes We Support",
+    "orgs_title": "Organisations We Support",
+    "orgs_subtitle": "Click on each organisation to learn more about the work they do."
   },
   "contact": {
     "hero_title": "Contact",

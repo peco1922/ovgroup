@@ -97,11 +97,18 @@
     "hero_title": "Marcas",
     "intro": "Alguns dos clientes que confiam em nós há anos."
   },
+  "reviews": {
+    "title": "O que dizem os nossos clientes",
+    "count_label": "avaliações no Google",
+    "cta_label": "Ver todas as avaliações"
+  },
   "csr": {
     "hero_title": "Responsabilidade Social",
     "hero_subtitle": "Acreditamos que o crescimento empresarial deve ser sustentável e eticamente responsável.",
     "certifications_title": "Certificações",
-    "causes_title": "Causas que Apoiamos"
+    "causes_title": "Causas que Apoiamos",
+    "orgs_title": "Organizações que Apoiamos",
+    "orgs_subtitle": "Clica em cada organização para saber mais sobre o trabalho que desenvolvem."
   },
   "contact": {
     "hero_title": "Contacto",

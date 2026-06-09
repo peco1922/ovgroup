@@ -16,56 +16,61 @@
     {
       "id": "guimaraes-involve",
       "name": "Guimarães [IN]volve",
+      "website": "https://www.facebook.com/guimaraes.involve",
       "description": {
-        "pt": "Apoio a migrantes e refugiados — integração social e profissional em Guimarães.",
-        "en": "Support for migrants and refugees — social and professional integration in Guimarães.",
-        "fr": "Soutien aux migrants et réfugiés — intégration sociale et professionnelle à Guimarães.",
-        "it": "Supporto a migranti e rifugiati — integrazione sociale e professionale a Guimarães.",
-        "es": "Apoyo a migrantes y refugiados — integración social y profesional en Guimarães."
+        "pt": "Projeto de integração de migrantes e refugiados na cidade de Guimarães. Através do desporto, cultura e formação, promove a inclusão social e profissional de pessoas que iniciaram uma nova vida em Portugal.",
+        "en": "Integration project for migrants and refugees in the city of Guimarães. Through sport, culture and training, it promotes the social and professional inclusion of people who started a new life in Portugal.",
+        "fr": "Projet d'intégration de migrants et réfugiés à Guimarães. Grâce au sport, à la culture et à la formation, il favorise l'inclusion sociale et professionnelle.",
+        "it": "Progetto di integrazione di migranti e rifugiati a Guimarães. Attraverso lo sport, la cultura e la formazione, promuove l'inclusione sociale e professionale.",
+        "es": "Proyecto de integración de migrantes y refugiados en Guimarães. A través del deporte, la cultura y la formación, promueve la inclusión social y profesional."
       }
     },
     {
       "id": "casa-da-crianca",
       "name": "Casa da Criança",
+      "website": "",
       "description": {
-        "pt": "Acolhimento de crianças em situação de vulnerabilidade desde 2001.",
-        "en": "Child shelter caring for vulnerable children since 2001.",
-        "fr": "Accueil d'enfants en situation de vulnérabilité depuis 2001.",
-        "it": "Accoglienza di bambini in situazione di vulnerabilità dal 2001.",
-        "es": "Acogida de niños en situación de vulnerabilidad desde 2001."
+        "pt": "Instituição de acolhimento residencial que apoia crianças e jovens em situação de vulnerabilidade ou risco social desde 2001. Oferece um ambiente seguro e estável para o seu desenvolvimento integral.",
+        "en": "Residential care institution that has been supporting vulnerable and at-risk children and young people since 2001. It provides a safe and stable environment for their overall development.",
+        "fr": "Institution d'accueil résidentiel soutenant les enfants et jeunes en situation de vulnérabilité depuis 2001. Elle offre un environnement sûr pour leur développement.",
+        "it": "Istituto di accoglienza residenziale che supporta bambini e giovani in situazione di vulnerabilità dal 2001. Offre un ambiente sicuro per il loro sviluppo.",
+        "es": "Institución de acogida residencial que apoya a niños y jóvenes en situación de vulnerabilidad desde 2001. Ofrece un entorno seguro para su desarrollo integral."
       }
     },
     {
       "id": "cercigui",
       "name": "CERCIGUI",
+      "website": "https://www.cercigui.pt",
       "description": {
-        "pt": "Inclusão e apoio a pessoas com deficiência intelectual e multideficiência.",
-        "en": "Inclusion and support for people with intellectual and multiple disabilities.",
-        "fr": "Inclusion et soutien aux personnes handicapées intellectuelles et polyhandicapées.",
-        "it": "Inclusione e supporto a persone con disabilità intellettive e multihandicap.",
-        "es": "Inclusión y apoyo a personas con discapacidad intelectual y pluridiscapacidad."
+        "pt": "Cooperativa de Educação e Reabilitação de Cidadãos com Incapacidades de Guimarães. Apoia pessoas com deficiência intelectual e multideficiência, promovendo a sua inclusão plena na sociedade.",
+        "en": "Cooperative for Education and Rehabilitation of Citizens with Disabilities in Guimarães. It supports people with intellectual and multiple disabilities, promoting their full inclusion in society.",
+        "fr": "Coopérative d'éducation et de réhabilitation de citoyens handicapés de Guimarães. Elle soutient les personnes handicapées intellectuelles et polyhandicapées.",
+        "it": "Cooperativa per l'Educazione e la Riabilitazione di Cittadini con Disabilità di Guimarães. Supporta persone con disabilità intellettive e multihandicap.",
+        "es": "Cooperativa de Educación y Rehabilitación de Ciudadanos con Discapacidades de Guimarães. Apoya a personas con discapacidad intelectual y pluridiscapacidad."
       }
     },
     {
       "id": "apaca",
       "name": "APACA",
+      "website": "",
       "description": {
-        "pt": "Apoio a crianças abandonadas e em risco desde 2007.",
-        "en": "Support for abandoned and at-risk children since 2007.",
-        "fr": "Soutien aux enfants abandonnés et en danger depuis 2007.",
-        "it": "Supporto a bambini abbandonati e a rischio dal 2007.",
-        "es": "Apoyo a niños abandonados y en riesgo desde 2007."
+        "pt": "Associação de apoio a crianças abandonadas e em risco, fundada em 2007. Desenvolve projetos de intervenção precoce, acompanhamento familiar e suporte psicossocial a famílias em situação de fragilidade.",
+        "en": "Association supporting abandoned and at-risk children, founded in 2007. It develops early intervention projects, family support and psychosocial support for families in difficult situations.",
+        "fr": "Association de soutien aux enfants abandonnés et en danger, fondée en 2007. Elle développe des projets d'intervention précoce et de soutien familial.",
+        "it": "Associazione di supporto a bambini abbandonati e a rischio, fondata nel 2007. Sviluppa progetti di intervento precoce e supporto familiare.",
+        "es": "Asociación de apoyo a niños abandonados y en riesgo, fundada en 2007. Desarrolla proyectos de intervención temprana y apoyo familiar."
       }
     },
     {
       "id": "sorriso-de-crianca",
       "name": "Associação Sorriso de Criança",
+      "website": "https://www.sorrisodecrianca.pt",
       "description": {
-        "pt": "Assistência social de âmbito nacional, com sede em Vila Nova de Gaia.",
-        "en": "Nationwide social assistance organisation, headquartered in Vila Nova de Gaia.",
-        "fr": "Organisation d'assistance sociale à portée nationale, basée à Vila Nova de Gaia.",
-        "it": "Organizzazione di assistenza sociale a livello nazionale, con sede a Vila Nova de Gaia.",
-        "es": "Organización de asistencia social de ámbito nacional, con sede en Vila Nova de Gaia."
+        "pt": "Associação de solidariedade social de âmbito nacional, com sede em Vila Nova de Gaia. Promove o bem-estar e a proteção de crianças e famílias em situação de carência, com projetos de apoio alimentar, escolar e emocional.",
+        "en": "Nationwide social solidarity association headquartered in Vila Nova de Gaia. It promotes the well-being and protection of children and families in need, with food, educational and emotional support projects.",
+        "fr": "Association de solidarité sociale d'envergure nationale, basée à Vila Nova de Gaia. Elle promeut le bien-être des enfants et familles dans le besoin.",
+        "it": "Associazione di solidarietà sociale a livello nazionale, con sede a Vila Nova de Gaia. Promuove il benessere dei bambini e famiglie in difficoltà.",
+        "es": "Asociación de solidaridad social de ámbito nacional, con sede en Vila Nova de Gaia. Promueve el bienestar de niños y familias en situación de necesidad."
       }
     }
   ],

@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import { Leaf, Heart, Shield, FileDown } from "lucide-react";
 import csrData from "@/../data/csr.json";
 import type { Locale } from "@/i18n/routing";
+import { OrganizationCard } from "@/components/csr/OrganizationCard";
 
 const CAUSE_ICONS: Record<string, React.ComponentType<{ className?: string }>> = {
   sustainability: Leaf,
@@ -82,23 +83,21 @@ export default async function CsrPage({ params }: Props) {
       {/* Supported organizations */}
       <section className="section-pad bg-surface">
         <div className="max-content container-pad">
-          <h2 className="text-2xl sm:text-3xl font-bold text-ink tracking-tight mb-12">
-            {t("causes_title")} — Organizações Apoiadas
+          <h2 className="text-2xl sm:text-3xl font-bold text-ink tracking-tight mb-4">
+            {t("orgs_title")}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <p className="text-sm text-ink-muted mb-10">{t("orgs_subtitle")}</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {csrData.organizations.map((org) => (
-              <div
+              <OrganizationCard
                 key={org.id}
-                className="p-6 rounded-2xl bg-canvas border border-border/50 hover:border-brand-pink/30 hover:shadow-sm transition-all duration-200 space-y-3"
-              >
-                <div className="w-10 h-10 rounded-lg bg-brand-pink/10 flex items-center justify-center">
-                  <Heart className="h-4 w-4 text-brand-pink" />
-                </div>
-                <h3 className="font-semibold text-ink">{org.name}</h3>
-                <p className="text-sm text-ink-muted leading-relaxed">
-                  {org.description[loc] ?? org.description.pt}
-                </p>
-              </div>
+                org={{
+                  id: org.id,
+                  name: org.name,
+                  description: org.description[loc] ?? org.description.pt,
+                  website: org.website || undefined,
+                }}
+              />
             ))}
           </div>
         </div>

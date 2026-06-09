@@ -66,11 +66,14 @@ export default async function AboutPage({ params }: Props) {
             <h3 className="text-xl font-semibold text-ink">{t("mission_title")}</h3>
             <p className="text-base text-ink-muted leading-relaxed">{t("mission_text")}</p>
           </div>
-          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-surface">
-            {/* [AI_IMAGE_SUGGESTION: Professional OpenVision Group team in a collaborative office or production facility, natural light, candid and authentic atmosphere] */}
-            <div className="absolute inset-0 flex items-center justify-center text-ink-subtle/30 text-xs font-mono">
-              Team photo
-            </div>
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+            <Image
+              src="/images/about-team.jpg"
+              alt="Equipa OpenVision Group"
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
           </div>
         </div>
       </section>
