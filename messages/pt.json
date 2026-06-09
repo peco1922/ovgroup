@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "projects": "Projetos",
+    "brands": "Marcas",
+    "csr": "Responsabilidade Social",
+    "contact": "Contacto",
+    "cta": "Pedir Orçamento"
+  },
+  "hero": {
+    "headline": "A Sua Marca, Amplificada.",
+    "subheadline": "Soluções de merchandising e branding corporativo para marcas que exigem qualidade.",
+    "cta_primary": "Pedir Orçamento",
+    "cta_secondary": "Ver Projetos"
+  },
+  "trust": {
+    "title": "Marcas que confiam em nós"
+  },
+  "services_preview": {
+    "title": "O Que Fazemos",
+    "subtitle": "Soluções à medida do início ao fim — da criação de conceito à entrega final.",
+    "cta": "Ver Todos os Serviços",
+    "items": {
+      "merchandising": {
+        "title": "Merchandising de Produto",
+        "description": "Artigos promocionais e brindes corporativos com qualidade premium."
+      },
+      "textile": {
+        "title": "Soluções Têxteis",
+        "description": "Vestuário e têxteis personalizados produzidos com os mais altos padrões."
+      },
+      "branding": {
+        "title": "Branding Personalizado",
+        "description": "Criação de conceito, design e produção com identidade de marca coerente."
+      },
+      "presence": {
+        "title": "Presença de Marca",
+        "description": "Materiais de ponto de venda e soluções de visibilidade para eventos e retalho."
+      }
+    }
+  },
+  "projects_preview": {
+    "title": "Projetos em Destaque",
+    "subtitle": "Trabalho real para marcas reais.",
+    "cta": "Ver Portfólio Completo",
+    "view": "Ver Projeto"
+  },
+  "value_prop": {
+    "title": "Por Que a OpenVision?",
+    "items": {
+      "experience": {
+        "number": "20+",
+        "label": "Anos de Experiência",
+        "description": "Mais de duas décadas a servir as maiores marcas do mercado."
+      },
+      "team": {
+        "number": "100%",
+        "label": "Equipa Especializada",
+        "description": "Profissionais dedicados em cada fase do projeto."
+      },
+      "custom": {
+        "number": "360°",
+        "label": "Soluções Personalizadas",
+        "description": "Da ideia à entrega, gerimos cada detalhe."
+      }
+    }
+  },
+  "cta_banner": {
+    "title": "Pronto para elevar a sua marca?",
+    "subtitle": "Fale connosco e descubra como transformamos a sua visão em realidade.",
+    "cta": "Falar Connosco"
+  },
+  "about": {
+    "hero_title": "Sobre a OpenVision Group",
+    "intro_title": "Quem Somos",
+    "intro_text": "Há mais de 20 anos no mercado da publicidade e merchandising, a OpenVision Group estabeleceu-se como referência de excelência e inovação. Com uma equipa especializada e um historial de sucesso, comprometemo-nos a oferecer soluções de merchandising de alta qualidade, adaptadas às necessidades específicas de cada cliente.",
+    "mission_title": "A Nossa Missão",
+    "mission_text": "Combinamos conhecimento especializado com as mais recentes tecnologias para criar soluções à medida que aumentam a visibilidade e a presença de marca dos nossos clientes.",
+    "team_title": "A Nossa Equipa",
+    "certifications_title": "Certificações"
+  },
+  "services": {
+    "hero_title": "Os Nossos Serviços",
+    "hero_subtitle": "Soluções completas de merchandising e branding corporativo.",
+    "request_cta": "Pedir Orçamento para Este Serviço"
+  },
+  "projects": {
+    "hero_title": "Portfólio",
+    "hero_subtitle": "Projetos que falam por si.",
+    "filter_all": "Todos",
+    "client": "Cliente",
+    "category": "Categoria",
+    "year": "Ano"
+  },
+  "brands": {
+    "hero_title": "Marcas",
+    "intro": "Alguns dos clientes que confiam em nós há anos."
+  },
+  "csr": {
+    "hero_title": "Responsabilidade Social",
+    "hero_subtitle": "Acreditamos que o crescimento empresarial deve ser sustentável e eticamente responsável.",
+    "certifications_title": "Certificações",
+    "causes_title": "Causas que Apoiamos"
+  },
+  "contact": {
+    "hero_title": "Contacto",
+    "hero_subtitle": "Fale connosco. Estamos prontos para transformar a sua ideia em realidade.",
+    "form": {
+      "name": "Nome",
+      "company": "Empresa",
+      "email": "Email",
+      "phone": "Telefone",
+      "service": "Tipo de Serviço",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "success": "Mensagem enviada. Entraremos em contacto em breve.",
+      "error": "Ocorreu um erro. Tente novamente ou contacte-nos diretamente.",
+      "service_options": {
+        "default": "Selecionar serviço",
+        "merchandising": "Merchandising de Produto",
+        "textile": "Soluções Têxteis",
+        "branding": "Branding Personalizado",
+        "presence": "Presença de Marca",
+        "other": "Outro"
+      }
+    },
+    "address_label": "Morada",
+    "phone_label": "Telefone",
+    "email_label": "Email"
+  },
+  "legal": {
+    "hero_title": "Transparência e Financiamento",
+    "intro": "A OpenVision Group compromete-se com a total transparência relativamente aos apoios comunitários e programas de financiamento de que beneficiou.",
+    "downloads_title": "Documentos para Download",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos e Condições"
+  },
+  "footer": {
+    "tagline": "Soluções de merchandising e branding para marcas exigentes.",
+    "navigation": "Navegação",
+    "contact": "Contacto",
+    "follow": "Redes Sociais",
+    "copyright": "© {year} OpenVision Group. Todos os direitos reservados.",
+    "legal": "Legal",
+    "privacy": "Privacidade"
+  }
+}

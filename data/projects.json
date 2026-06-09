@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "fck-kobenhavn",
+    "client": "F.C. København",
+    "category": "Merchandising",
+    "year": 2023,
+    "featured": true,
+    "images": ["fck-1.jpg"],
+    "description": {
+      "pt": "Parceria com o F.C. København para desenvolvimento de merchandising oficial do clube, incluindo vestuário personalizado e artigos promocionais para a loja oficial.",
+      "en": "Partnership with F.C. København for the development of the club's official merchandise, including custom apparel and promotional items for the official store.",
+      "fr": "Partenariat avec le F.C. København pour le développement du merchandising officiel du club, incluant vêtements personnalisés et articles promotionnels.",
+      "it": "Partnership con il F.C. København per lo sviluppo del merchandising ufficiale del club, inclusi abbigliamento personalizzato e articoli promozionali.",
+      "es": "Asociación con el F.C. København para el desarrollo del merchandising oficial del club, incluyendo ropa personalizada y artículos promocionales."
+    }
+  },
+  {
+    "slug": "bostik",
+    "client": "Bostik",
+    "category": "Branding Corporativo",
+    "year": 2023,
+    "featured": true,
+    "images": ["bostik-1.jpg"],
+    "description": {
+      "pt": "Desenvolvimento de materiais de branding corporativo e artigos promocionais para a Bostik, líder global em adesivos e soluções de fixação.",
+      "en": "Development of corporate branding materials and promotional items for Bostik, a global leader in adhesives and bonding solutions.",
+      "fr": "Développement de matériaux de branding corporate et articles promotionnels pour Bostik, leader mondial des adhésifs.",
+      "it": "Sviluppo di materiali di branding aziendale e articoli promozionali per Bostik, leader globale negli adesivi.",
+      "es": "Desarrollo de materiales de branding corporativo y artículos promocionales para Bostik, líder global en adhesivos."
+    }
+  },
+  {
+    "slug": "era-imobiliaria",
+    "client": "ERA Imobiliária",
+    "category": "Merchandising",
+    "year": 2022,
+    "featured": true,
+    "images": ["era-1.jpg"],
+    "description": {
+      "pt": "Solução completa de merchandising para a ERA Portugal, a maior rede imobiliária do país, incluindo materiais de ponto de venda e artigos corporativos para toda a rede de franchisados.",
+      "en": "Complete merchandising solution for ERA Portugal, the country's largest real estate network, including point-of-sale materials and corporate items for the entire franchisee network.",
+      "fr": "Solution complète de merchandising pour ERA Portugal, le plus grand réseau immobilier du pays.",
+      "it": "Soluzione completa di merchandising per ERA Portugal, la più grande rete immobiliare del paese.",
+      "es": "Solución completa de merchandising para ERA Portugal, la mayor red inmobiliaria del país."
+    }
+  },
+  {
+    "slug": "dibble",
+    "client": "Dibble",
+    "category": "Branding & Conceito",
+    "year": 2022,
+    "featured": false,
+    "images": ["dibble-1.jpg"],
+    "description": {
+      "pt": "Criação de conceito e produção de artigos de branding para a Dibble, com foco em soluções têxteis personalizadas que reflitam os valores da marca.",
+      "en": "Concept creation and production of branding items for Dibble, focusing on customized textile solutions that reflect the brand's values.",
+      "fr": "Création de concept et production d'articles de branding pour Dibble, axés sur des solutions textiles personnalisées.",
+      "it": "Creazione di concept e produzione di articoli di branding per Dibble, con focus su soluzioni tessili personalizzate.",
+      "es": "Creación de concepto y producción de artículos de branding para Dibble, con enfoque en soluciones textiles personalizadas."
+    }
+  }
+]

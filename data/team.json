@@ -1,0 +1,183 @@
+[
+  {
+    "id": "cristina-nogueira",
+    "name": "Cristina Nogueira",
+    "department": "leadership",
+    "role": { "pt": "CEO", "en": "CEO", "fr": "PDG", "it": "CEO", "es": "CEO" },
+    "photo": "cristina-nogueira.png"
+  },
+  {
+    "id": "paulo-oliveira",
+    "name": "Paulo Oliveira",
+    "department": "leadership",
+    "role": { "pt": "CEO", "en": "CEO", "fr": "PDG", "it": "CEO", "es": "CEO" },
+    "photo": "paulo-oliveira.png"
+  },
+  {
+    "id": "teresa-soares",
+    "name": "Teresa Soares",
+    "department": "leadership",
+    "role": { "pt": "CEO", "en": "CEO", "fr": "PDG", "it": "CEO", "es": "CEO" },
+    "photo": "teresa-soares.png"
+  },
+  {
+    "id": "dany-peixoto",
+    "name": "Dany Peixoto",
+    "department": "sales",
+    "role": {
+      "pt": "Sales Specialist", "en": "Sales Specialist",
+      "fr": "Spécialiste Commercial", "it": "Specialista Commerciale", "es": "Especialista Comercial"
+    },
+    "photo": "dany-peixoto.png"
+  },
+  {
+    "id": "hugo-silva",
+    "name": "Hugo Silva",
+    "department": "sales",
+    "role": {
+      "pt": "Sales Specialist", "en": "Sales Specialist",
+      "fr": "Spécialiste Commercial", "it": "Specialista Commerciale", "es": "Especialista Comercial"
+    },
+    "photo": "hugo-silva.png"
+  },
+  {
+    "id": "joana-macedo",
+    "name": "Joana Macedo",
+    "department": "sales",
+    "role": {
+      "pt": "Sales Specialist", "en": "Sales Specialist",
+      "fr": "Spécialiste Commercial", "it": "Specialista Commerciale", "es": "Especialista Comercial"
+    },
+    "photo": "joana-macedo.png"
+  },
+  {
+    "id": "liliana-vaz",
+    "name": "Liliana Vaz",
+    "department": "sales",
+    "role": {
+      "pt": "Sales Specialist", "en": "Sales Specialist",
+      "fr": "Spécialiste Commercial", "it": "Specialista Commerciale", "es": "Especialista Comercial"
+    },
+    "photo": "liliana-vaz.png"
+  },
+  {
+    "id": "nelson-oliveira",
+    "name": "Nelson Oliveira",
+    "department": "sales",
+    "role": {
+      "pt": "Sales Specialist", "en": "Sales Specialist",
+      "fr": "Spécialiste Commercial", "it": "Specialista Commerciale", "es": "Especialista Comercial"
+    },
+    "photo": "nelson-oliveira.png"
+  },
+  {
+    "id": "pedro-freitas",
+    "name": "Pedro Freitas",
+    "department": "sales",
+    "role": {
+      "pt": "Sales Specialist", "en": "Sales Specialist",
+      "fr": "Spécialiste Commercial", "it": "Specialista Commerciale", "es": "Especialista Comercial"
+    },
+    "photo": "pedro-freitas.png"
+  },
+  {
+    "id": "afonso-oliveira",
+    "name": "Afonso Oliveira",
+    "department": "sales",
+    "role": {
+      "pt": "Sales Specialist", "en": "Sales Specialist",
+      "fr": "Spécialiste Commercial", "it": "Specialista Commerciale", "es": "Especialista Comercial"
+    },
+    "photo": "afonso-oliveira.png"
+  },
+  {
+    "id": "claudia-barros",
+    "name": "Cláudia Barros",
+    "department": "production",
+    "role": {
+      "pt": "Responsável de Produção", "en": "Production Manager",
+      "fr": "Responsable de Production", "it": "Responsabile Produzione", "es": "Responsable de Producción"
+    },
+    "photo": "claudia-barros.png"
+  },
+  {
+    "id": "fabio-costa",
+    "name": "Fábio Costa",
+    "department": "production",
+    "role": {
+      "pt": "Responsável de Logística", "en": "Logistics Manager",
+      "fr": "Responsable Logistique", "it": "Responsabile Logistica", "es": "Responsable de Logística"
+    },
+    "photo": "fabio-costa.png"
+  },
+  {
+    "id": "filipe-marinho",
+    "name": "Filipe Marinho",
+    "department": "production",
+    "role": {
+      "pt": "Produção", "en": "Production",
+      "fr": "Production", "it": "Produzione", "es": "Producción"
+    },
+    "photo": "filipe-marinho.png"
+  },
+  {
+    "id": "joao-salgado",
+    "name": "João Salgado",
+    "department": "production",
+    "role": {
+      "pt": "Produção", "en": "Production",
+      "fr": "Production", "it": "Produzione", "es": "Producción"
+    },
+    "photo": "joao-salgado.png"
+  },
+  {
+    "id": "vania-rodrigues",
+    "name": "Vânia Rodrigues",
+    "department": "production",
+    "role": {
+      "pt": "Responsável de Produção", "en": "Production Manager",
+      "fr": "Responsable de Production", "it": "Responsabile Produzione", "es": "Responsable de Producción"
+    },
+    "photo": "vania-rodrigues.png"
+  },
+  {
+    "id": "veronica-macedo",
+    "name": "Verónica Macedo",
+    "department": "production",
+    "role": {
+      "pt": "Responsável de Produção", "en": "Production Manager",
+      "fr": "Responsable de Production", "it": "Responsabile Produzione", "es": "Responsable de Producción"
+    },
+    "photo": "veronica-macedo.png"
+  },
+  {
+    "id": "joao-ferreira",
+    "name": "João Ferreira",
+    "department": "design",
+    "role": {
+      "pt": "Designer", "en": "Designer",
+      "fr": "Designer", "it": "Designer", "es": "Diseñador"
+    },
+    "photo": "joao-ferreira.png"
+  },
+  {
+    "id": "luis-antunes",
+    "name": "Luís Antunes",
+    "department": "design",
+    "role": {
+      "pt": "Web Designer", "en": "Web Designer",
+      "fr": "Développeur Web", "it": "Web Designer", "es": "Diseñador Web"
+    },
+    "photo": "luis-antunes.png"
+  },
+  {
+    "id": "stephanie-hierro",
+    "name": "Stephanie Hierro",
+    "department": "marketing",
+    "role": {
+      "pt": "Marketing", "en": "Marketing",
+      "fr": "Marketing", "it": "Marketing", "es": "Marketing"
+    },
+    "photo": "stephanie-hierro.png"
+  }
+]

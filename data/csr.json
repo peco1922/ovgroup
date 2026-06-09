@@ -1,0 +1,145 @@
+{
+  "certifications": [
+    {
+      "id": "smeta",
+      "name": "SMETA 4 Pillars",
+      "description": {
+        "pt": "Auditoria SMETA 4 Pilares certificando conformidade em trabalho infantil, trabalho forçado, saúde e segurança no trabalho e direitos dos trabalhadores.",
+        "en": "SMETA 4 Pillars audit certifying compliance on child labour, forced labour, workplace health & safety, and workers' rights.",
+        "fr": "Audit SMETA 4 piliers certifiant la conformité sur le travail des enfants, le travail forcé, la santé et sécurité et les droits des travailleurs.",
+        "it": "Audit SMETA 4 pilastri certificante la conformità su lavoro minorile, lavoro forzato, salute e sicurezza e diritti dei lavoratori.",
+        "es": "Auditoría SMETA 4 Pilares certificando conformidad en trabajo infantil, trabajo forzado, salud y seguridad laboral y derechos de los trabajadores."
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "guimaraes-involve",
+      "name": "Guimarães [IN]volve",
+      "description": {
+        "pt": "Apoio a migrantes e refugiados — integração social e profissional em Guimarães.",
+        "en": "Support for migrants and refugees — social and professional integration in Guimarães.",
+        "fr": "Soutien aux migrants et réfugiés — intégration sociale et professionnelle à Guimarães.",
+        "it": "Supporto a migranti e rifugiati — integrazione sociale e professionale a Guimarães.",
+        "es": "Apoyo a migrantes y refugiados — integración social y profesional en Guimarães."
+      }
+    },
+    {
+      "id": "casa-da-crianca",
+      "name": "Casa da Criança",
+      "description": {
+        "pt": "Acolhimento de crianças em situação de vulnerabilidade desde 2001.",
+        "en": "Child shelter caring for vulnerable children since 2001.",
+        "fr": "Accueil d'enfants en situation de vulnérabilité depuis 2001.",
+        "it": "Accoglienza di bambini in situazione di vulnerabilità dal 2001.",
+        "es": "Acogida de niños en situación de vulnerabilidad desde 2001."
+      }
+    },
+    {
+      "id": "cercigui",
+      "name": "CERCIGUI",
+      "description": {
+        "pt": "Inclusão e apoio a pessoas com deficiência intelectual e multideficiência.",
+        "en": "Inclusion and support for people with intellectual and multiple disabilities.",
+        "fr": "Inclusion et soutien aux personnes handicapées intellectuelles et polyhandicapées.",
+        "it": "Inclusione e supporto a persone con disabilità intellettive e multihandicap.",
+        "es": "Inclusión y apoyo a personas con discapacidad intelectual y pluridiscapacidad."
+      }
+    },
+    {
+      "id": "apaca",
+      "name": "APACA",
+      "description": {
+        "pt": "Apoio a crianças abandonadas e em risco desde 2007.",
+        "en": "Support for abandoned and at-risk children since 2007.",
+        "fr": "Soutien aux enfants abandonnés et en danger depuis 2007.",
+        "it": "Supporto a bambini abbandonati e a rischio dal 2007.",
+        "es": "Apoyo a niños abandonados y en riesgo desde 2007."
+      }
+    },
+    {
+      "id": "sorriso-de-crianca",
+      "name": "Associação Sorriso de Criança",
+      "description": {
+        "pt": "Assistência social de âmbito nacional, com sede em Vila Nova de Gaia.",
+        "en": "Nationwide social assistance organisation, headquartered in Vila Nova de Gaia.",
+        "fr": "Organisation d'assistance sociale à portée nationale, basée à Vila Nova de Gaia.",
+        "it": "Organizzazione di assistenza sociale a livello nazionale, con sede a Vila Nova de Gaia.",
+        "es": "Organización de asistencia social de ámbito nacional, con sede en Vila Nova de Gaia."
+      }
+    }
+  ],
+  "causes": [
+    {
+      "id": "sustainability",
+      "icon": "Leaf",
+      "title": {
+        "pt": "Sustentabilidade",
+        "en": "Sustainability",
+        "fr": "Durabilité",
+        "it": "Sostenibilità",
+        "es": "Sostenibilidad"
+      },
+      "description": {
+        "pt": "Comprometemo-nos a reduzir o nosso impacto ambiental através da escolha de fornecedores certificados, materiais recicláveis e processos de produção mais eficientes.",
+        "en": "We are committed to reducing our environmental impact through the choice of certified suppliers, recyclable materials and more efficient production processes.",
+        "fr": "Nous nous engageons à réduire notre impact environnemental grâce au choix de fournisseurs certifiés, de matériaux recyclables.",
+        "it": "Ci impegniamo a ridurre il nostro impatto ambientale attraverso la scelta di fornitori certificati, materiali riciclabili.",
+        "es": "Nos comprometemos a reducir nuestro impacto ambiental a través de la elección de proveedores certificados, materiales reciclables."
+      }
+    },
+    {
+      "id": "community",
+      "icon": "Heart",
+      "title": {
+        "pt": "Comunidade",
+        "en": "Community",
+        "fr": "Communauté",
+        "it": "Comunità",
+        "es": "Comunidad"
+      },
+      "description": {
+        "pt": "Apoiamos iniciativas locais e causas sociais que promovam a inclusão, a educação e o bem-estar das comunidades onde operamos.",
+        "en": "We support local initiatives and social causes that promote inclusion, education and the well-being of the communities where we operate.",
+        "fr": "Nous soutenons des initiatives locales et des causes sociales qui promeuvent l'inclusion, l'éducation et le bien-être.",
+        "it": "Supportiamo iniziative locali e cause sociali che promuovono l'inclusione, l'educazione e il benessere delle comunità.",
+        "es": "Apoyamos iniciativas locales y causas sociales que promuevan la inclusión, la educación y el bienestar de las comunidades."
+      }
+    },
+    {
+      "id": "ethics",
+      "icon": "Shield",
+      "title": {
+        "pt": "Ética Empresarial",
+        "en": "Business Ethics",
+        "fr": "Éthique des Affaires",
+        "it": "Etica Aziendale",
+        "es": "Ética Empresarial"
+      },
+      "description": {
+        "pt": "Operamos com transparência, integridade e responsabilidade em todas as relações comerciais — com clientes, fornecedores e colaboradores.",
+        "en": "We operate with transparency, integrity and accountability in all business relationships — with clients, suppliers and employees.",
+        "fr": "Nous opérons avec transparence, intégrité et responsabilité dans toutes les relations commerciales.",
+        "it": "Operiamo con trasparenza, integrità e responsabilità in tutte le relazioni commerciali.",
+        "es": "Operamos con transparencia, integridad y responsabilidad en todas las relaciones comerciales."
+      }
+    }
+  ],
+  "pdf_downloads": [
+    { "id": "si-inovacao-produtiva", "filename": "SI_Inovacao_Produtiva.pdf", "label": "SI Inovação Produtiva (2022)" },
+    { "id": "si-internacionalizacao", "filename": "SI_Internacionalizacao.pdf", "label": "SI Internacionalização" },
+    { "id": "si-qualificacao", "filename": "SI_Qualificacao.pdf", "label": "SI Qualificação" },
+    { "id": "si-inovacao-covid", "filename": "SI_Inovacao_Produtiva_COVID19.pdf", "label": "SI Inovação Produtiva COVID-19" },
+    { "id": "ficha-formacao", "filename": "Ficha_Projeto_Formacao.pdf", "label": "Ficha do Projeto — Formação" },
+    { "id": "si-descarbonizacao", "filename": "SI_Descarbonizacao_Industria.pdf", "label": "SI Descarbonização da Indústria" }
+  ],
+  "eu_funding": {
+    "text": {
+      "pt": "A OpenVision Group beneficiou de apoios do Portugal 2020 no âmbito do COMPETE 2020 — Programa Operacional Competitividade e Internacionalização e do Portugal 2020, com cofinanciamento do Fundo Europeu de Desenvolvimento Regional (FEDER).",
+      "en": "OpenVision Group has benefited from Portugal 2020 support under COMPETE 2020 — Operational Programme for Competitiveness and Internationalisation and Portugal 2020, co-financed by the European Regional Development Fund (ERDF).",
+      "fr": "OpenVision Group a bénéficié de soutiens du Portugal 2020 dans le cadre de COMPETE 2020, cofinancé par le Fonds européen de développement régional (FEDER).",
+      "it": "OpenVision Group ha beneficiato di supporti del Portogallo 2020 nell'ambito di COMPETE 2020, cofinanziato dal Fondo europeo di sviluppo regionale (FESR).",
+      "es": "OpenVision Group se ha beneficiado de apoyos del Portugal 2020 en el marco de COMPETE 2020, cofinanciado por el Fondo Europeo de Desarrollo Regional (FEDER)."
+    }
+  }
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "merchandising",
+    "icon": "ShoppingBag",
+    "image": "merchandising.jpg",
+    "order": 1,
+    "title": {
+      "pt": "Merchandising de Produto",
+      "en": "Product Merchandising",
+      "fr": "Merchandising Produit",
+      "it": "Merchandising di Prodotto",
+      "es": "Merchandising de Producto"
+    },
+    "description": {
+      "pt": "Artigos promocionais e brindes corporativos com qualidade premium. Da caneta corporativa ao brinde de luxo, produzimos cada peça com rigor e atenção ao detalhe.",
+      "en": "Premium promotional items and corporate gifts. From corporate pens to luxury gifts, we produce each piece with precision and attention to detail.",
+      "fr": "Articles promotionnels et cadeaux d'entreprise haut de gamme. Du stylo corporate au cadeau de luxe, nous produisons chaque pièce avec rigueur.",
+      "it": "Articoli promozionali e omaggi aziendali di qualità premium. Dalla penna aziendale al regalo di lusso, produciamo ogni pezzo con rigore.",
+      "es": "Artículos promocionales y regalos corporativos premium. Desde el bolígrafo corporativo hasta el regalo de lujo, producimos cada pieza con rigor."
+    },
+    "features": {
+      "pt": ["Artigos personalizados com logótipo", "Brindes corporativos de luxo", "Embalagem personalizada", "Produção em pequenas e grandes séries"],
+      "en": ["Logo-branded items", "Luxury corporate gifts", "Custom packaging", "Small and large run production"],
+      "fr": ["Articles personnalisés avec logo", "Cadeaux d'entreprise de luxe", "Emballage personnalisé", "Production en petites et grandes séries"],
+      "it": ["Articoli personalizzati con logo", "Omaggi aziendali di lusso", "Imballaggio personalizzato", "Produzione in piccole e grandi serie"],
+      "es": ["Artículos personalizados con logo", "Regalos corporativos de lujo", "Embalaje personalizado", "Producción en pequeñas y grandes series"]
+    }
+  },
+  {
+    "id": "textile",
+    "icon": "Shirt",
+    "image": "textile.jpg",
+    "order": 2,
+    "title": {
+      "pt": "Soluções Têxteis",
+      "en": "Textile Solutions",
+      "fr": "Solutions Textiles",
+      "it": "Soluzioni Tessili",
+      "es": "Soluciones Textiles"
+    },
+    "description": {
+      "pt": "Vestuário e têxteis personalizados produzidos com os mais altos padrões. Uniformes, fardamentos, coleções de moda corporativa — tudo criado para representar a sua marca.",
+      "en": "Custom apparel and textiles produced to the highest standards. Uniforms, workwear, corporate fashion collections — all created to represent your brand.",
+      "fr": "Vêtements et textiles personnalisés selon les normes les plus élevées. Uniformes, tenues de travail, collections de mode corporate.",
+      "it": "Abbigliamento e tessili personalizzati prodotti secondo i più alti standard. Uniformi, divise da lavoro, collezioni di moda aziendale.",
+      "es": "Ropa y textiles personalizados producidos con los más altos estándares. Uniformes, ropa de trabajo, colecciones de moda corporativa."
+    },
+    "features": {
+      "pt": ["Uniformes e fardamentos corporativos", "Coleções de moda com marca", "Bordados e serigrafias", "Certificação de qualidade têxtil"],
+      "en": ["Corporate uniforms and workwear", "Branded fashion collections", "Embroidery and screen printing", "Textile quality certification"],
+      "fr": ["Uniformes et tenues d'entreprise", "Collections de mode marquées", "Broderies et sérigraphies", "Certification qualité textile"],
+      "it": ["Uniformi e abbigliamento aziendale", "Collezioni moda brandizzate", "Ricami e serigrafia", "Certificazione qualità tessile"],
+      "es": ["Uniformes y ropa de trabajo corporativa", "Colecciones de moda de marca", "Bordados y serigrafía", "Certificación de calidad textil"]
+    }
+  },
+  {
+    "id": "branding",
+    "icon": "Palette",
+    "image": "branding.jpg",
+    "order": 3,
+    "title": {
+      "pt": "Branding Personalizado",
+      "en": "Custom Branding",
+      "fr": "Branding Personnalisé",
+      "it": "Branding Personalizzato",
+      "es": "Branding Personalizado"
+    },
+    "description": {
+      "pt": "Criação de conceito, design e produção com identidade de marca coerente. Traduzimos a essência da sua marca em objetos físicos que comunicam, inspiram e fidelizam.",
+      "en": "Concept creation, design and production with consistent brand identity. We translate your brand's essence into physical objects that communicate, inspire and build loyalty.",
+      "fr": "Création de concept, design et production avec une identité de marque cohérente. Nous traduisons l'essence de votre marque en objets physiques.",
+      "it": "Creazione di concept, design e produzione con identità di marca coerente. Traduciamo l'essenza del vostro brand in oggetti fisici.",
+      "es": "Creación de concepto, diseño y producción con identidad de marca coherente. Traducimos la esencia de su marca en objetos físicos."
+    },
+    "features": {
+      "pt": ["Desenvolvimento de conceito criativo", "Design gráfico especializado", "Identidade visual coerente", "Produção e controlo de qualidade"],
+      "en": ["Creative concept development", "Specialist graphic design", "Consistent visual identity", "Production and quality control"],
+      "fr": ["Développement de concept créatif", "Design graphique spécialisé", "Identité visuelle cohérente", "Production et contrôle qualité"],
+      "it": ["Sviluppo di concept creativo", "Design grafico specializzato", "Identità visiva coerente", "Produzione e controllo qualità"],
+      "es": ["Desarrollo de concepto creativo", "Diseño gráfico especializado", "Identidad visual coherente", "Producción y control de calidad"]
+    }
+  },
+  {
+    "id": "presence",
+    "icon": "MapPin",
+    "image": "presence.jpg",
+    "order": 4,
+    "title": {
+      "pt": "Presença de Marca",
+      "en": "Brand Presence",
+      "fr": "Présence de Marque",
+      "it": "Presenza del Brand",
+      "es": "Presencia de Marca"
+    },
+    "description": {
+      "pt": "Materiais de ponto de venda e soluções de visibilidade para eventos e retalho. Criamos experiências de marca memoráveis nos pontos de contacto com o consumidor.",
+      "en": "Point-of-sale materials and visibility solutions for events and retail. We create memorable brand experiences at consumer touchpoints.",
+      "fr": "Matériaux de point de vente et solutions de visibilité pour les événements et le retail. Nous créons des expériences de marque mémorables.",
+      "it": "Materiali per il punto vendita e soluzioni di visibilità per eventi e retail. Creiamo esperienze di brand memorabili.",
+      "es": "Materiales de punto de venta y soluciones de visibilidad para eventos y retail. Creamos experiencias de marca memorables."
+    },
+    "features": {
+      "pt": ["Materiais POS e PLV", "Expositores e displays", "Sinalética e banners para eventos", "Kits de ativação de marca"],
+      "en": ["POS and PLV materials", "Displays and stands", "Event signage and banners", "Brand activation kits"],
+      "fr": ["Matériaux POS et PLV", "Présentoirs et displays", "Signalétique et bannières événementielles", "Kits d'activation de marque"],
+      "it": ["Materiali POS e PLV", "Espositori e display", "Segnaletica e banner per eventi", "Kit di attivazione del brand"],
+      "es": ["Materiales POS y PLV", "Expositores y displays", "Señalización y banners para eventos", "Kits de activación de marca"]
+    }
+  }
+]
